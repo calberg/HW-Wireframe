@@ -2,35 +2,105 @@
     box-sizing: border-box;
 }
 
-.box {
-  float: left;
-  width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
-  padding: 50px; /* if you want space between the images */
-  height: 500px;
-}
-.header {
-    padding: 60px;
+header { 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    padding-top: 20px;
     text-align: center;
-    background: #1abc9c;
-    color: white;
-    font-size: 30px;
-  }
+    background-color: #ebebeb;
+    color: #777;
+}
+body {
+    color: #777;
+    background-color: #777;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 960px;
+}
 
-.column {
+#nav {
+    border: 10px;
+    display: block;
+    background-color: #ebebeb;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+#boxes{
+    margin: 25px;
+    padding: 25px;
+    border: 25px;
+    overflow: hidden;
+}
+
+#sectionleft {
+    width: 400px;
+    height: 300px;
+    border: 5px;
+    margin: 5px;
+    padding: 10px;
+    padding-top: 10px;
+    background-color: #ebebeb;
+    overflow: hidden;
     float: left;
-    padding: 15px;
+    position: relative;
 }
 
-.clearfix::after {
-    content: "";
+#sectionleft #article {
+    height: 200px;
+    width: 350px;
+    top: 10%;
+    border: 10px;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    color: #ebebeb;
+    background-color: #777;
+}
+
+#article #topbox {
+    background-color: #ebebeb;
+    color: #777;
+    height: 50px;
+    top: 0;
+    border: 10px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+#article #bottombox {
+    background-color: #ebebeb;
+    color: #777;
+    height: 50px;
+    bottom: 10px;
+    border: 10px;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+#aside {
+    width: 370px;
+    height: 300px;
+    border: 5px;
+    margin: 5px;
+    padding: 10px;
+    background-color: #ebebeb;
+    float: left;
+}
+
+#footer {
     clear: both;
-    display: table;
-}
+    padding: 20px;
+    background-color: #ebebeb;
 
-.menu {
-    width: 25%;
-}
-
-.content {
-    width: 75%;
 }

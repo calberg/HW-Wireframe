@@ -1,0 +1,43 @@
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    color: black;
+    background-color: gray;
+    margin: 0;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a {
+    color: blue;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+    float: left;
+}
+
+#main-bio {
+    width: 70%;
+}
+#contact-info {
+    width: 30%;
+}
+
+#bio-image {
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+}
